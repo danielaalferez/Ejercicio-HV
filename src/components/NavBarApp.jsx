@@ -3,9 +3,10 @@ import { NavLink } from "react-router-dom";
 export const NavBarApp=()=>{
     return(
     <>
- 
+    
+  <div style={{ backgroundColor: 'turquoise', color: 'white', padding: '5px' }}></div>
   <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{ backgroundImage: 'url("background_image_url")' }}>
-            <div className="container-fluid">
+            <div className="container-fluid" style={{backgroundColor:'cadetblue'}}>
                 <a className="navbar-brand" href="#">Navbar</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -39,8 +40,10 @@ export const NavBarApp=()=>{
                         </li>
                     </ul>
                 </div>
+                
             </div>
         </nav>
+        <div style={{ backgroundColor: 'turquoise', color: 'white', padding: '5px' }}></div>
 </>
     );
 };
